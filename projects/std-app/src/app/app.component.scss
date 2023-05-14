@@ -1,0 +1,130 @@
+/* center the content */
+
+div {
+    text-align: center;
+}
+
+
+/* style the h1 tag */
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+
+/* style the paragraph tag */
+
+p {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+
+/* style the button tag */
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* style the full name div */
+
+.fullName {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+/* style the input fields */
+
+input {
+    padding: 0.5rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+
+/* style the input fields when focused */
+
+input:focus {
+    outline: none;
+    border-color: #008CBA;
+}
+
+
+/* style the todo section */
+
+.todos {
+    margin-top: 2rem;
+}
+
+
+/* style the todo list */
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* style the todo list items */
+
+li {
+    font-size: 1.2rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+
+/* style the todo list items when hovered */
+
+li:hover {
+    color: #008CBA;
+    cursor: pointer;
+}
+
+
+/* style the edit button */
+
+.edit {
+    padding: 0.5rem;
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+
+/* style the edit button when hovered */
+
+.edit:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+
+/* style the info span */
+
+.done {
+    color: #999;
+    margin-left: 1rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
